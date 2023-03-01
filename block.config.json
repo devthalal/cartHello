@@ -1,0 +1,17 @@
+{
+  "name": "cartHello",
+  "blockId": "nkZ5tqIxaWu_BcZUtuoOh",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/cartHello",
+    "ssh": "git@github.com:devthalal/cartHello.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ]
+}
